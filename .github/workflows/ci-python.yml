@@ -26,5 +26,5 @@ jobs:
              pip install pytest
 
         - name: Rodar testes
-          run: pytest
+          run: pytest -v
       
